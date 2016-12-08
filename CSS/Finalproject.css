@@ -1,0 +1,262 @@
+<!DOCTYPE CSS>
+
+/* this is CSS reset rendering all browser present information to 0*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* this is where the CSS reset ends */
+
+body {
+	background-color: #f1f3f4;
+}
+#toplvlcontainer {
+}
+header {
+  height:898px;
+  width:1360px;
+	margin: 0 auto;
+}
+.topimage {
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 898px;
+	width: 1360px;
+	display: block;
+	margin: 0 auto;
+}
+.nav-pills {
+	font-family: "lato", sans-serif;
+	font-size: 36px;
+	color: #fff;
+	padding-top: 40px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	padding-left: 150px;
+}
+a {
+	padding-top: 10px;
+	color: #fff;
+}
+.Herotext {
+	width:700px;
+	height: 500px;
+	position: relative;
+	top: -740px;
+	left: 40px;
+}
+.Heroh1 {
+	font-size:48px;
+  font-family: 'Lato', sans-serif;
+	text-align: center;
+  font-weight: 700;
+  color: #fff;
+	padding-top: 40px;
+	line-height: 68px;
+	margin: 0px;
+}
+h2 {
+	font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #fff;
+	padding-top: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.step {
+	width: 1000px;
+	height:300px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-top: none;
+	border-style: solid;
+	border-color: #777777;
+	border-bottom-width: 1px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	padding-top: 80px;
+	margin: 0 auto;
+}
+#step5 {
+	height: 360px;
+}
+.steptitle {
+	font-family: "Lato", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	padding-left: 80px;
+	padding-bottom: 20px;
+	text-align: left;
+	color: #4d4d4d;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+#title1 {
+}
+.steptext {
+	font-size: 20px;
+	font-weight: 300;
+	font-family: "PLayfair Display", sans-serif;
+	color: #4D4D4D;
+	padding-left: 80px;
+	padding-top: 10px;
+	margin: 0px;
+	line-height: 28px;
+}
+.download {
+	float: right;
+	height: 40px;
+	width: 200px;
+	border-radius: 25px;
+	border-style: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #4682b4;
+	padding-top: 10px;
+	margin-top: 20px;
+	padding-left: 40px;
+}
+.subtext {
+		font-family: 'Lato', sans-serif;
+		font-size: 20;
+		font-weight: 600;
+		color: #ffffff
+}
+.number {
+	height: 60px;
+	width: 60px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	border-width: 5px;
+	border-color: #4682b4;
+	float: left;
+	border-style: solid;
+	border-radius: 50px;
+	padding-top: 3px;
+	padding-left: 14.5px;
+	color: #4682b4;
+	margin-top: 5px;
+}
+.emb {
+	width:1000px;
+	height:539px;
+	margin: 0 auto;
+	margin-top: 40px;
+	display: block;
+}
+.triplecard_container {
+	width: 1000px;
+	height: 656px;
+	margin-top: 60px;
+	clear: both;
+	margin-bottom: 40px;
+	margin: 0 auto;
+}
+#triplehead {
+	color: #4d4d4d;
+	margin-bottom: 40px;
+}
+.triplecard {
+	width: 320px;
+	height: 320px;
+	border-width: 3px;
+	border-color: #4d4d4d;
+	border-style: solid;
+}
+#cardh1 {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	width: 320px;
+	text-align: center;
+}
+#cardp {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-left: 0px;
+	padding-top: 0px;
+	text-align: center;
+}
+#tp1 {
+	float: left;
+	margin-right: 20px;
+}
+#tp2 {
+	float: right;
+
+}
+#tp3 {
+	float: right;
+	margin-right: 20px;
+}
+footer {
+	height: 75px;
+	width: 100%;
+	background-color: #4d4d4d;
+	margin-top: 60px;
+}
+#footer {
+	padding-top: 10px;
+	padding-left: 0px;
+	margin: 0 auto;
+	display: block;
+	width: 400px;
+
+}
